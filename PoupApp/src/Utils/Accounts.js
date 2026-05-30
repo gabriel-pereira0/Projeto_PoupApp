@@ -1,0 +1,9 @@
+export const accounts = [
+  { bank: 'Anybank', balance: 1200 },
+
+  { bank: 'Bytebank', balance: 800 },
+
+  { bank: 'Switch Bank', balance: 1800 },
+
+  { bank: 'Bank of America', balance: 500 },
+];

@@ -1,0 +1,37 @@
+.accountItem {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.bank {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 120%;
+  align-items: center;
+  gap: 8px;
+  min-width: 243px;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  line-height: 125%;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.balance span {
+  font-weight: 500;
+}
+.balance p {
+  font-weight: 400;
+  margin: 0;
+}
+
+.accountItem:last-child {
+  border-bottom: none;
+}

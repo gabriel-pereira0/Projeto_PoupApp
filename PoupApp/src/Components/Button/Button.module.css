@@ -1,0 +1,19 @@
+.button {
+  border-radius: 24px;
+  border: 1px solid var(--neutral-text);
+  background: transparent;
+  color: var(--neutral-text);
+  font-size: 16px;
+  line-height: 120%;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

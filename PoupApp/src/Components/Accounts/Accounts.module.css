@@ -1,0 +1,27 @@
+.accounts {
+  list-style: none;
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.accounts li {
+  border-bottom: 1px solid var(--neutral-header);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.accounts li:last-child {
+  border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.buttonAccount {
+  display: flex;
+  justify-content: center;
+}
