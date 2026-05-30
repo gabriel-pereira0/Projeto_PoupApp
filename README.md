@@ -53,7 +53,7 @@ git clone <url-do-repositorio>
 2. Acesse a pasta do projeto:
 
 ```bash
-cd poupapp
+cd PoupApp
 ```
 
 3. Instale as dependências:
