@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './Transactions.module.css';
 import { transactions } from '../../Utils/Transactions';
 import { TransactionsItem } from '../TransactionsItem/TransactionsItem';
