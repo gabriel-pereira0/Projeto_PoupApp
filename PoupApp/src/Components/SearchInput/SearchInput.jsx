@@ -1,5 +1,5 @@
 import styles from './SearchInput.module.css';
-import { IconSearch } from '../icons';
+import { IconSearch } from '../Icons';
 
 export function SearchInput(props) {
   return (
