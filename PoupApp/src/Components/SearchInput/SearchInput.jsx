@@ -1,5 +1,3 @@
-import React from 'react';
-
 import styles from './SearchInput.module.css';
 import { IconSearch } from '../icons';
 
