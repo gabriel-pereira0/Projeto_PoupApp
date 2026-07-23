@@ -4,7 +4,7 @@ Projeto desenvolvido utilizando **React**, com foco na prática de **componentiz
 
 ## 🌐 Projeto Online
 
-👉 **Acesse o projeto:** https://projeto-poup-app-xlp9-rcpraoq41-gabriel-pereira0s-projects.vercel.app/
+👉 **Acesse o projeto:** https://projeto-poup-app-xlp9.vercel.app/
 
 ## 📋 Funcionalidades
 
