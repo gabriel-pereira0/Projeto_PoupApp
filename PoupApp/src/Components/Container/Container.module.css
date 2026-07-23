@@ -5,3 +5,23 @@
   gap: 24px;
   flex-wrap: nowrap;
 }
+
+@media (max-width: 1610px) {
+  .container {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+}

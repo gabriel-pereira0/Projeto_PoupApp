@@ -1,8 +1,5 @@
-import React from 'react';
-
 import styles from './Components/App.module.css';
 
-import logo from './assets/logo_poupapp.svg';
 import { Container } from './Components/Container/Container';
 import { Asaide } from './Components/Asaide/Asaide';
 import { SearchInput } from './Components/SearchInput/SearchInput';
