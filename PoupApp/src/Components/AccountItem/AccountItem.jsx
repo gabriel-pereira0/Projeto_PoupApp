@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './AccountItem.module.css';
 
 import { IconBank } from '../Icons';

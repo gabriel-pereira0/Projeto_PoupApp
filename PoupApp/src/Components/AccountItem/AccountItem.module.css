@@ -1,7 +1,7 @@
 .accountItem {
   display: flex;
-  align-items: center;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 8px 40px;
 }
 
 .bank {
@@ -12,7 +12,17 @@
   line-height: 120%;
   align-items: center;
   gap: 8px;
-  min-width: 243px;
+  flex: 0 1 243px;
+  min-width: 0;
+}
+
+.bank svg {
+  flex-shrink: 0;
+}
+
+.bank strong {
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .balance {
@@ -34,4 +44,18 @@
 
 .accountItem:last-child {
   border-bottom: none;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 480px) {
+  .accountItem {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .bank {
+    min-width: 0 0 auto;
+  }
 }

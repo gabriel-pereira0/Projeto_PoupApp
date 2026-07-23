@@ -17,3 +17,15 @@
   font-size: 16px;
   line-height: 120%;
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 24px;
+  }
+
+  .body {
+    font-size: 14px;
+  }
+}

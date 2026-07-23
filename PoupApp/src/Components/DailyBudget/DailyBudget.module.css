@@ -9,3 +9,11 @@
   align-items: center;
   justify-content: center;
 }
+
+/* RESPONSIVDADE */
+
+@media (max-width: 400px) {
+  .dailyBudget {
+    font-size: 28px;
+  }
+}
