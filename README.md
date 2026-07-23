@@ -1,46 +1,37 @@
 # 💰 PoupApp
 
-O **PoupApp** é um projeto desenvolvido em **React** com o objetivo de praticar a criação e organização de componentes reutilizáveis. O foco principal foi exercitar conceitos fundamentais da biblioteca, como componentização, separação de responsabilidades e estruturação de interfaces.
+Projeto desenvolvido utilizando **React**, com foco na prática de **componentização**, organização de código e criação de interfaces reutilizáveis. A aplicação simula um painel financeiro, permitindo visualizar informações como saldo, contas, transações e metas de economia por meio de uma interface moderna e organizada.
 
-Este projeto não possui gerenciamento de estado dinâmico ou lógica avançada, pois foi criado apenas para fins de estudo e aprendizado. Por esse motivo, não foram utilizados **Hooks** do React, como `useState` ou `useEffect`.
+## 🌐 Projeto Online
+
+👉 **Acesse o projeto:** https://projeto-poup-app-xlp9-rcpraoq41-gabriel-pereira0s-projects.vercel.app/
+
+## 📋 Funcionalidades
+
+- Interface inspirada em aplicativos de controle financeiro.
+- Componentes reutilizáveis desenvolvidos em React.
+- Exibição de saldo, contas e transações.
+- Indicador de progresso para metas de economia.
+- Campo de pesquisa para navegação.
+- Formatação de valores monetários no padrão brasileiro (BRL).
+- Estilização utilizando CSS Modules.
 
 ## 🚀 Tecnologias Utilizadas
 
 - React
+- JavaScript
 - JSX
 - CSS Modules
-- JavaScript
-
-## 📚 Objetivos do Projeto
-
-- Praticar a criação de componentes React.
-- Organizar a aplicação em componentes reutilizáveis.
-- Utilizar CSS Modules para estilização isolada.
-- Trabalhar com arquivos utilitários em JavaScript.
-- Aplicar boas práticas de estruturação de projetos React.
+- Vite
 
 ## 📂 Estrutura do Projeto
 
-O projeto é composto por:
+O projeto foi organizado seguindo boas práticas de componentização, contendo:
 
-- **Componentes React** desenvolvidos com JSX.
-- **CSS Modules** para estilização dos componentes.
-- **Arquivos utilitários (utils)** contendo:
-  - Listas de dados utilizadas pela aplicação.
-  - Função responsável por formatar valores monetários para o padrão brasileiro (BRL).
-
-## 💵 Formatação de Valores
-
-A aplicação utiliza uma função utilitária para converter valores numéricos para o formato monetário brasileiro:
-
-```javascript
-const valorFormatado = formatarValor(1500);
-// Resultado: R$ 1.500,00
-```
-
-## 🎯 Finalidade
-
-Este projeto foi desenvolvido exclusivamente para fins educacionais, servindo como prática dos conceitos iniciais do React, especialmente na criação e organização de componentes.
+- Componentes React reutilizáveis.
+- CSS Modules para estilização isolada.
+- Arquivos utilitários responsáveis pelo armazenamento de dados e formatação de valores monetários.
+- Estrutura modular para facilitar manutenção e escalabilidade.
 
 ## ▶️ Como Executar o Projeto
 
@@ -62,16 +53,10 @@ cd PoupApp
 npm install
 ```
 
-4. Execute o projeto:
+4. Execute a aplicação:
 
 ```bash
 npm run dev
-```
-
-ou, dependendo da configuração:
-
-```bash
-npm start
 ```
 
 5. Abra o navegador no endereço informado pelo terminal.
@@ -81,19 +66,22 @@ npm start
 Durante o desenvolvimento deste projeto foram praticados conceitos como:
 
 - Componentização em React.
-- Utilização de JSX.
-- Estilização com CSS Modules.
-- Organização de código em arquivos utilitários.
+- Organização de projetos em estrutura modular.
+- Criação de componentes reutilizáveis.
+- Estilização utilizando CSS Modules.
+- Organização de dados em arquivos utilitários.
 - Formatação de valores monetários utilizando JavaScript.
-- Estruturação básica de aplicações React.
+- Boas práticas na estruturação de aplicações React.
 
 ## 🔮 Melhorias Futuras
 
-Este projeto foi desenvolvido inicialmente com foco na prática de componentização e organização de código em React. Novas funcionalidades serão implementadas futuramente, incluindo:
+- Implementação de gerenciamento de estado com Hooks do React.
+- Inclusão de funcionalidades para cadastro e gerenciamento de transações.
+- Persistência de dados utilizando armazenamento local ou API.
+- Dashboard com gráficos financeiros.
+- Responsividade aprimorada para dispositivos móveis.
+- Implementação de modo claro/escuro.
 
-- Adição de regras de negócio e maior interatividade na aplicação.
-- Implementação de gerenciamento de estado utilizando Hooks do React.
-- Desenvolvimento de funcionalidades mais avançadas para tornar a aplicação mais dinâmica.
-- Adaptação completa da interface para diferentes dispositivos por meio de técnicas de responsividade.
+---
 
-> **Observação:** O projeto continuará recebendo melhorias conforme a evolução dos estudos, com o objetivo de aplicar conceitos mais avançados do ecossistema React e aprimorar a experiência do usuário.
+Projeto desenvolvido com foco em estudos e evolução prática no ecossistema **React**, aplicando conceitos de componentização, organização de código e desenvolvimento de interfaces modernas.
